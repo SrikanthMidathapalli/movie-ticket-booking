@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-discovery
+eureka:
+  server:
+    enable-self-preservation: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
